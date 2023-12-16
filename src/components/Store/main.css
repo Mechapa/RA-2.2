@@ -1,0 +1,10 @@
+.store {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.view__conteiner {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50rem;
+}

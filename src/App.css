@@ -1,3 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #43464b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +35,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #99e6fc;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +45,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#root {
+  background-color: #e7e0e0;
 }
